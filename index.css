@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header{
+  background-color: black;
+  padding: 1rem;
+}
+
+header a{
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main{
+  padding: 1rem;
+  margin-left: 2%;
+  /* margin-right: 3rem; */
+  /* width: 80vw; */
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+}
+
+.product{
+  border: 1px black solid;
+  margin: 1rem;
+}
+
+.product img{
+  width: 100%;
+  max-width: 400px;
+  /* padding: 1rem; */
+}
+
+.product-info{
+  padding: 1rem;
+}
+
+.rating span{
+  color: rgb(255, 208, 0);
+}
+
+.products button{
+  background-color: rgb(255, 179, 0);
+  color: black;
+  border: 0;
+  padding: 5px;
+}
+
+.col1{
+  display: inline-block;
+}
+
+.col1 img{
+  width: 30vw;
+  height: 70vh;
+  margin: 2rem;
+}
+
+.col2{
+  display: inline-block;
+  position: absolute;
+  top: 50;
+}
+
+
+.col2 button{
+  background-color: rgb(255, 179, 0);
+}
+
+.instock{
+  background-color: rgb(41, 234, 41);
+  width: 100px;
+}
+
+.outofstock{
+  background-color:rgb(212, 55, 55);
+}
+
+footer div{
+  /* align-items: center; */
+  /* vertical-align: bottom; */
+  position:static;
+  bottom: 0;
+  padding-left: 43%;
+  /* background: red; */
+}
+
+.nav-link{
+  position: absolute;
+  top:3%;
+  right: 10%;
+  font-weight: 200;
+}
+
+.cartcol1{
+  /* max-width: 80vb; */
+  /* background-color: aqua; */
+  display: inline-block;
+  width: 100vb;
+}
+
+.cartcol2{
+  display: inline-block;
+  margin-left: 15%;
+}
+
+.cartrow{
+  border: 0.5px solid rgb(196, 194, 194);
+  margin-left: 5%;
+  margin-right: 10%;
+  padding-left: 10%;
+}
+
+.cartcol3{
+  /* display: inline-block; */
+  margin: 5%;
+}
+
+.img-thumbnail{
+  height: 80px;
+}
+
+.checkout{
+  font-weight: 600;
+  font-size: 2vmin;
+  background-color: rgb(255, 179, 0);
+}
+
+.small-container{
+  max-width: 600px;
+}
+
+button{
+  background-color: rgb(255, 179, 0);
+}
+
+.signin-link{
+  left: 15%;
+  position: relative;
+}
+
+.user-info span{
+  color: white;
+}
+
+.slim-user-profile{
+  font-weight: 200;
+}
+
+.col2{
+  display: inline-block;
+  width: 50vw;
+}
+
+.col1{
+  display: inline-block;
+  width: 50vw;
+}
+
+.col1 img{
+  height: 20vh;
+  width: 12vw;
+}
